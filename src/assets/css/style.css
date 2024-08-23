@@ -2135,7 +2135,7 @@ div.popover-success.bottom>.arrow:after{
     max-height:100%
 }
 #fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span{
-    background-image:url(assets/img/fancybox/fancybox_sprite.png)
+    background-image:url(../img/fancybox/fancybox_sprite.png)
 }
 #fancybox-loading{
     position:fixed;
@@ -2151,7 +2151,7 @@ div.popover-success.bottom>.arrow:after{
 #fancybox-loading div{
     width:44px;
     height:44px;
-    background:url(assets/img/fancybox/fancybox_loading.gif) center center no-repeat
+    background:url(../img/fancybox/fancybox_loading.gif) center center no-repeat
 }
 .fancybox-close{
     position:absolute;
@@ -2169,7 +2169,7 @@ div.popover-success.bottom>.arrow:after{
     height:100%;
     cursor:pointer;
     text-decoration:none;
-    background:transparent url(assets/img/fancybox/blank.gif);
+    background:transparent url(../img/fancybox/blank.gif);
     z-index:8040
 }
 .fancybox-prev{
@@ -2225,7 +2225,7 @@ div.popover-success.bottom>.arrow:after{
     overflow:hidden;
     display:none;
     z-index:8010;
-    background:url(assets/img/fancybox/fancybox_overlay.png)
+    background:url(../img/fancybox/fancybox_overlay.png)
 }
 .fancybox-overlay-fixed{
     position:fixed;
@@ -7149,8 +7149,8 @@ a.resultado-pesquisa img{
     font-style:normal;
     font-weight:400;
     font-display:block;
-    src:url(assets/webfonts/fa-brands-400.eot);
-    src:url(assets/webfonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"),url(assets/webfonts/fa-brands-400.woff2) format("woff2"),url(assets/webfonts/fa-brands-400.woff) format("woff"),url(assets/webfonts/fa-brands-400.ttf) format("truetype"),url(assets/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+    src:url(../webfonts/fa-brands-400.eot);
+    src:url(../webfonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-brands-400.woff2) format("woff2"),url(../webfonts/fa-brands-400.woff) format("woff"),url(../webfonts/fa-brands-400.ttf) format("truetype"),url(../webfonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 .fab{
     font-family:'Font Awesome 5 Brands';
@@ -7161,8 +7161,8 @@ a.resultado-pesquisa img{
     font-style:normal;
     font-weight:900;
     font-display:block;
-    src:url(assets/webfonts/fa-solid-900.eot);
-    src:url(assets/webfonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"),url(assets/webfonts/fa-solid-900.woff2) format("woff2"),url(assets/webfonts/fa-solid-900.woff) format("woff"),url(assets/webfonts/fa-solid-900.ttf) format("truetype"),url(assets/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+    src:url(../webfonts/fa-solid-900.eot);
+    src:url(../webfonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.woff) format("woff"),url(../webfonts/fa-solid-900.ttf) format("truetype"),url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 .fa,.fas{
     font-family:'Font Awesome 5 Free';
@@ -7173,8 +7173,8 @@ a.resultado-pesquisa img{
     font-style:normal;
     font-weight:400;
     font-display:block;
-    src:url(assets/webfonts/fa-regular-400.eot);
-    src:url(assets/webfonts/fa-regular-400d41d.eot?#iefix) format("embedded-opentype"),url(assets/webfonts/fa-regular-400.woff2) format("woff2"),url(assets/webfonts/fa-regular-400.woff) format("woff"),url(assets/webfonts/fa-regular-400.ttf) format("truetype"),url(assets/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+    src:url(../webfonts/fa-regular-400.eot);
+    src:url(../webfonts/fa-regular-400d41d.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-regular-400.woff2) format("woff2"),url(../webfonts/fa-regular-400.woff) format("woff"),url(../webfonts/fa-regular-400.ttf) format("truetype"),url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 .far{
     font-family:'Font Awesome 5 Free';
@@ -7405,16 +7405,16 @@ hr{
     width: 100%
 }
 .mm-call{
-    background: url(assets/img/menu-mobile/mm-phone-icon.png) no-repeat center center
+    background: url(../img/menu-mobile/mm-phone-icon.png) no-repeat center center
 }
 .mm-whatsapp{
-    background: url(assets/img/menu-mobile/mm-whatsapp-icon.png) no-repeat center center
+    background: url(../img/menu-mobile/mm-whatsapp-icon.png) no-repeat center center
 }
 .mm-email{
-    background: url(assets/img/menu-mobile/mm-email-icon.png) no-repeat center center
+    background: url(../img/menu-mobile/mm-email-icon.png) no-repeat center center
 }
 .mm-up-to-top{
-    background: url(assets/img/menu-mobile/mm-up-icon.png) no-repeat center center
+    background: url(../img/menu-mobile/mm-up-icon.png) no-repeat center center
 }
 @media screen and (max-width: 40em){
     .menu-footer-mobile{
@@ -7429,35 +7429,35 @@ hr{
     font-style: normal;
     font-weight: 100;
     font-display: swap;
-    src: local("Roboto Thin"), local("Roboto-Thin"), url(assets/fonts/roboto/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format("woff2")
+    src: local("Roboto Thin"), local("Roboto-Thin"), url(../fonts/roboto/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format("woff2")
 }
 @font-face{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(assets/fonts/roboto/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")
+    src: local("Roboto Light"), local("Roboto-Light"), url(../fonts/roboto/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")
 }
 @font-face{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local("Roboto"), local("Roboto-Regular"), url(assets/fonts/roboto/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")
+    src: local("Roboto"), local("Roboto-Regular"), url(../fonts/roboto/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")
 }
 @font-face{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: local("Roboto Medium"), local("Roboto-Medium"), url(assets/fonts/roboto/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")
+    src: local("Roboto Medium"), local("Roboto-Medium"), url(../fonts/roboto/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")
 }
 @font-face{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local("Roboto Bold"), local("Roboto-Bold"), url(assets/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2")
+    src: local("Roboto Bold"), local("Roboto-Bold"), url(../fonts/roboto/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2")
 }
 @font-face{
     font-family: 'Lato';
@@ -8117,14 +8117,14 @@ a.link-default:hover{
     display:none
 }
 .slick-loading .slick-list{
-    background:#fff url(assets/fonts/slick/ajax-loader.gif) center center no-repeat
+    background:#fff url(../fonts/slick/ajax-loader.gif) center center no-repeat
 }
 @font-face{
     font-family:'slick';
     font-weight:400;
     font-style:normal;
-    src:url(assets/fonts/slick/slick.eot);
-    src:url(assets/fonts/slick/slick.eot?#iefix) format("embedded-opentype"),url(assets/fonts/slick/slick.woff) format("woff"),url(assets/fonts/slick/slick.ttf) format("truetype"),url(assets/fonts/slick/slick.svg#slick) format("svg")
+    src:url(../fonts/slick/slick.eot);
+    src:url(../fonts/slick/slick.eot?#iefix) format("embedded-opentype"),url(../fonts/slick/slick.woff) format("woff"),url(../fonts/slick/slick.ttf) format("truetype"),url(../fonts/slick/slick.svg#slick) format("svg")
 }
 .slick-prev, .slick-next{
     font-size:0;
@@ -8492,7 +8492,7 @@ button.btn-form-produtos:hover{
 }
 .theme-default .nivoSlider{
     position:relative;
-    background:#fff url(assets/img/nivo-slider/loading.gif) no-repeat 50% 50%
+    background:#fff url(../img/nivo-slider/loading.gif) no-repeat 50% 50%
 }
 .theme-default .nivoSlider img{
     position:absolute;
@@ -8512,7 +8512,7 @@ button.btn-form-produtos:hover{
     display:inline-block;
     width:22px;
     height:22px;
-    background:url(assets/img/nivo-slider/bullets.png) no-repeat;
+    background:url(../img/nivo-slider/bullets.png) no-repeat;
     text-indent:-9999px;
     border:0;
     margin: 0 2px
@@ -8524,7 +8524,7 @@ button.btn-form-produtos:hover{
     display:block;
     width:30px;
     height:30px;
-    background:url(assets/img/nivo-slider/arrows.png) no-repeat;
+    background:url(../img/nivo-slider/arrows.png) no-repeat;
     text-indent:-9999px;
     border:0;
     opacity: 0;
@@ -8613,7 +8613,7 @@ button.btn-form-produtos:hover{
     font-weight: 400
 }
 .box-serralheiro{
-    background: url("assets/img/home/sessao-serralheiro.jpg") no-repeat;
+    background: url("../img/home/sessao-serralheiro.jpg") no-repeat;
     min-height: 410px;
     background-size: cover;
     margin-top: 130px;
@@ -8675,7 +8675,7 @@ button.btn-form-produtos:hover{
     padding: 60px 0
 }
 .vantagens-empresa{
-    background: url("assets/img/home/sessao-qualidades-mk3-ferro-e-aco.jpg") no-repeat;
+    background: url("../img/home/sessao-qualidades-mk3-ferro-e-aco.jpg") no-repeat;
     background-size: cover;
     padding: 140px 0;
     text-align: center
@@ -8705,7 +8705,7 @@ button.btn-form-produtos:hover{
     text-align: center
 }
 .home-form-title{
-    background: url("assets/img/home/fale-conosco-title.jpg") no-repeat;
+    background: url("../img/home/fale-conosco-title.jpg") no-repeat;
     background-size: cover;
     background-position: bottom
 }
