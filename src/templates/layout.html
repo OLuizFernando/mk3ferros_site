@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" style="--bs-bg-opacity: .5;">
         <div class="container px-5 py-3">
             <a class="navbar-brand" href="/">
-                <img src="../static/img/logo.png" alt="MK3 Logo" width="91" height="45">
+                <img src="../static/img/logo_branca.webp" alt="MK3 Logo" width="91" height="45">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,33 +24,29 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-evenly">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Produtos</a>
+                        <a class="nav-link text-white" aria-current="page" href="#">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
+                        <a class="nav-link text-white" href="#">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link text-white" href="#">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem Somos</a>
+                        <a class="nav-link text-white" href="#">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Informações</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-danger mobile-only" href="#">Faça seu orçamento</a>
-                        <button type="button" class="btn btn-danger btn-lg desktop-only">Faça seu orçamento</button>
+                        <a class="nav-link text-white" href="#">Informações</a>
                     </li>
                 </ul>         
             </div>
         </div>
     </nav>
-
+    
     <main>
         {% block main %}{% endblock %}
     </main>
-
+    
     <footer>
         <!-- Footer aqui -->
     </footer>
