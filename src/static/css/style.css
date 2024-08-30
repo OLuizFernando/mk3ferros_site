@@ -14,12 +14,46 @@ body {
     z-index: -1;
 }
 
+.btn-primary {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.btn-primary:hover {
+    background-color: #cc0000;
+    border-color: #cc0000;
+}
+
 .desktop-only {
     display: block;
 }
 
+.fw-extrabold {
+    font-weight: 800;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.header {
+    height: 55vh;
+}
+
 .mobile-only {
     display: none;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.products-section {
+    margin-top: 4rem;
+}
+
+.text-primary {
+    color: #f00 !important;
 }
 
 @media (max-width: 991px) {
@@ -29,5 +63,9 @@ body {
 
     .mobile-only {
         display: block;
+    }
+
+    .products-section {
+        margin-top: 5rem;
     }
 }
