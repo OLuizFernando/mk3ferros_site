@@ -4,7 +4,7 @@ body {
 }
 
 .bg-img {
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     object-fit: cover;
     filter: brightness(0.6);
@@ -49,7 +49,11 @@ body {
 }
 
 .products-section {
-    margin-top: 4rem;
+    margin-top: 10rem;
+}
+
+.products-section img {
+    margin-left: 50px;
 }
 
 .text-primary {
@@ -57,14 +61,6 @@ body {
 }
 
 @media (max-width: 991px) {
-    .desktop-only {
-        display: none;
-    }
-
-    .mobile-only {
-        display: block;
-    }
-
     .products-section {
         margin-top: 5rem;
     }
