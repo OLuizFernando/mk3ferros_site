@@ -5,16 +5,14 @@
 {% endblock %}
 
 {% block main %}
-    <img class="bg-img" src="../static/img/home/banner_serralheiro.webp" alt="Banner serralheiro">
+    <img class="banner-img" src="../static/img/home/banner_serralheiro.webp" alt="Banner serralheiro">
 
-    <div class="py-5">
-        <div class="my-auto py-5">
-            <h1 class="text-white fw-black">A CASA DO<br><span class="text-primary">SERRALHEIRO</span></h1>
-            <h6 class="text-white mb-3">
-                <strong>Distribuidora de Ferro e Aço</strong> para serralherias há mais de 22 anos.
-            </h6>
-            <button type="button" class="btn btn-primary btn-lg">Faça seu orçamento</button>
-        </div>
+    <div class="banner-text">
+        <h1 class="text-white fw-black">A CASA DO<br><span class="text-primary">SERRALHEIRO</span></h1>
+        <h6 class="text-white mb-3">
+            <strong>Distribuidora de Ferro e Aço</strong> para serralherias há mais de 22 anos.
+        </h6>
+        <button type="button" class="btn btn-primary btn-lg">Faça seu orçamento</button>
     </div>
     
     <div class="products-section">
@@ -56,4 +54,17 @@
             </div>
         </div>
     </div>
-{% endblock %}
+    
+    <img class="bg-img" src="../static/img/home/projeto_bg.png" alt="Background planta de projeto">
+    
+    <div class="services-section bg-white shadow-sm rounded-2 p-5">
+        <p class="fw-bold text-secondary mb-1">Serviços</p>
+        <h2 class="fs-4 fw-black mb-3">CORTE E DOBRA</h2>
+        <ul class="ps-3">
+            <li>Corte de chapas sob medida</li>
+            <li>Dobra de chapas sob medida</li>
+            <li>Corte e dobra de chapa até 1/8 de espessura</li>
+        </ul>
+        <button type="button" class="btn btn-primary">Faça seu orçamento</button>
+    </div>
+    {% endblock %}
