@@ -3,13 +3,22 @@ body {
     overflow-x: hidden;
 }
 
-.bg-img {
+.banner-img {
     height: 600px;
     width: 100vw;
     object-fit: cover;
     filter: brightness(0.6);
     position: absolute;
     top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bg-img {
+    height: 600px;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
     left: 0;
     z-index: -1;
 }
@@ -36,18 +45,37 @@ body {
     height: 55vh;
 }
 
+.banner-text {
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
 .montserrat {
     font-family: "Montserrat", sans-serif;
 }
 
 .products-section {
-    margin-top: 25vh;
+    margin-top: 250px;
 }
 
 .products-section img {
     margin-left: 50px;
 }
 
+.services-section {
+    margin-top: 225px;
+    margin-left: 50px;
+    width: 49vw;
+}
+
 .text-primary {
     color: #f00 !important;
+}
+
+@media (max-width: 991px) {
+    .services-section {
+        margin-top: 50px;
+        margin-left: 0;
+        width: auto;
+    }
 }
