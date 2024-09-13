@@ -62,10 +62,18 @@ body {
     margin-left: 50px;
 }
 
+.services-img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 55%;
+    bottom: 345px;
+    z-index: -1;
+}
+
 .services-section {
     margin-top: 225px;
-    margin-left: 50px;
-    width: 49vw;
+    width: 60%;
 }
 
 .text-primary {
@@ -75,7 +83,16 @@ body {
 @media (max-width: 991px) {
     .services-section {
         margin-top: 50px;
+        margin-bottom: 5%;
         margin-left: 0;
         width: auto;
+    }
+    
+    .services-img {
+        width: 100%;
+        height: auto;
+        left: auto;
+        bottom: auto;
+        z-index: -1;
     }
 }
