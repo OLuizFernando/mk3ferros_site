@@ -22,6 +22,10 @@ body {
     z-index: -1;
 }
 
+.border-primary {
+    border-color: #f00 !important;
+}
+
 .btn-primary {
     background-color: #ff0000;
     border-color: #ff0000;
@@ -30,6 +34,11 @@ body {
 .btn-primary:hover {
     background-color: #cc0000;
     border-color: #cc0000;
+}
+
+.btn-primary:active {
+    background-color: #bb0000 !important;
+    border-color: #bb0000 !important;
 }
 
 .fw-extrabold {
@@ -74,6 +83,10 @@ body {
 .services-section {
     margin-top: 225px;
     width: 60%;
+}
+
+.small-icon {
+    font-size: 10px;
 }
 
 .text-primary {
