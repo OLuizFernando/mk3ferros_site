@@ -68,6 +68,7 @@ body {
     position: relative;
     left: 55%;
     bottom: 345px;
+    margin-bottom: -345px;
     z-index: -1;
 }
 
@@ -93,6 +94,7 @@ body {
         height: auto;
         left: auto;
         bottom: auto;
+        margin-bottom: auto;
         z-index: -1;
     }
 }
