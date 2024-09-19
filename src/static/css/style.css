@@ -13,6 +13,11 @@ body {
     z-index: -1;
 }
 
+.banner-text {
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
 .bg-img {
     height: 600px;
     width: 100vw;
@@ -53,9 +58,12 @@ body {
     height: 55vh;
 }
 
-.banner-text {
-    margin-top: 135px;
-    margin-bottom: 135px;
+.infos-section img {
+    transition: background-color 0.2s ease;
+}
+
+.infos-section img:hover {
+    background-color: #fdd;
 }
 
 .montserrat {
