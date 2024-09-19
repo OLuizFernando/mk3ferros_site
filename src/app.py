@@ -12,5 +12,10 @@ def quem_somos():
     return render_template("quem-somos.html")
 
 
+@app.route("/informacoes")
+def informacoes():
+    return render_template("informacoes.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
