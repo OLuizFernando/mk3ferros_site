@@ -1,3 +1,6 @@
+// importing hooks
+import { useEffect } from 'react'
+
 // components
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -15,6 +18,10 @@ import telha_galvalume from '../assets/images/informacoes/telha_galvalume.jpg'
 import tubos from '../assets/images/informacoes/tubos.png'
 
 function Informacoes() {
+    useEffect(() => {
+        document.title = "Informações - MK3"
+    }, [])
+
     return (
         <>
             <Navbar />

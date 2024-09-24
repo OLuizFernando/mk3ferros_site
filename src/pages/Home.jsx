@@ -1,3 +1,6 @@
+// importing hooks
+import { useEffect } from 'react'
+
 // components
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -17,6 +20,10 @@ import projeto_bg from '../assets/images/home/projeto_bg.png'
 import corte_e_dobra from '../assets/images/home/corte_e_dobra.jpg'
 
 function Home() {
+    useEffect(() => {
+        document.title = "Home - MK3"
+    }, [])
+
     return (
         <>
             <Navbar />

@@ -1,3 +1,6 @@
+// importing hooks
+import { useEffect } from 'react'
+
 // components
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -15,6 +18,10 @@ import atendimento_6 from '../assets/images/quem_somos/atendimento_6.webp'
 
 
 function QuemSomos() {
+    useEffect(() => {
+        document.title = "Quem Somos - MK3"
+    }, [])
+
     return (
         <>
             <Navbar />
