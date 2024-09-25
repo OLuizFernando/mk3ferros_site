@@ -5,18 +5,6 @@ import { useEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-// carousel images
-import equipe_1 from '../assets/images/quem_somos/equipe_1.jpg'
-import equipe_2 from '../assets/images/quem_somos/equipe_2.webp'
-import atendimento_1 from '../assets/images/quem_somos/atendimento_1.webp'
-import atendimento_2 from '../assets/images/quem_somos/atendimento_2.webp'
-import atendimento_3 from '../assets/images/quem_somos/atendimento_3.webp'
-import atendimento_4 from '../assets/images/quem_somos/atendimento_4.webp'
-import atendimento_5 from '../assets/images/quem_somos/atendimento_5.webp'
-import caminhoes from '../assets/images/quem_somos/caminhoes.webp'
-import atendimento_6 from '../assets/images/quem_somos/atendimento_6.webp'
-
-
 function QuemSomos() {
     useEffect(() => {
         document.title = "Quem Somos - MK3"
@@ -32,31 +20,31 @@ function QuemSomos() {
                             <div class="carousel slide mb-lg-0 mb-5 me-lg-5 me-0" id="carouselExample">
                                 <div class="carousel-inner rounded-start-5">
                                     <div class="carousel-item active">
-                                        <img src={equipe_1} class="d-block w-100" alt="Equipe MK3" />
+                                        <img src='/quem_somos/equipe_1.jpg' class="d-block w-100" alt="Equipe MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={equipe_2} class="d-block w-100" alt="Equipe MK3" />
+                                        <img src='/quem_somos/equipe_2.webp' class="d-block w-100" alt="Equipe MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={atendimento_1} class="d-block w-100" alt="Atendimento MK3" />
+                                        <img src='/quem_somos/atendimento_1.webp' class="d-block w-100" alt="Atendimento MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={atendimento_2} class="d-block w-100" alt="Atendimento MK3" />
+                                        <img src='/quem_somos/atendimento_2.webp' class="d-block w-100" alt="Atendimento MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={atendimento_3} class="d-block w-100" alt="Atendimento MK3" />
+                                        <img src='/quem_somos/atendimento_3.webp' class="d-block w-100" alt="Atendimento MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={atendimento_4} class="d-block w-100" alt="Atendimento MK3" />
+                                        <img src='/quem_somos/atendimento_4.webp' class="d-block w-100" alt="Atendimento MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={atendimento_5} class="d-block w-100" alt="Atendimento MK3" />
+                                        <img src='/quem_somos/atendimento_5.webp' class="d-block w-100" alt="Atendimento MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={caminhoes} class="d-block w-100" alt="Caminhoes de entrega MK3" />
+                                        <img src='/quem_somos/caminhoes.webp' class="d-block w-100" alt="Caminhoes de entrega MK3" />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src={atendimento_6} class="d-block w-100" alt="Atendimento MK3" />
+                                        <img src='/quem_somos/atendimento_6.webp' class="d-block w-100" alt="Atendimento MK3" />
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
