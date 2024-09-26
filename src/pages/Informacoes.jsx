@@ -57,7 +57,7 @@ function Informacoes() {
                     <div className="row mb-lg-4 justify-content-center">
                         <div className="col-12 col-md-6 col-lg-3 mb-lg-0 mb-4">
                             <div onClick={() => window.location.href='/chapas'} style={{cursor: "pointer"}} className="card text-center text-primary border-3 border-primary">
-                                <img src={'/informacoes/chapa.jpg'} className="card-img-top" alt="Chapa de ferro e aço" />
+                                <img src={'/informacoes/chapa.png'} className="card-img-top" alt="Chapa de ferro e aço" />
                                 <div className="card-body border-3 border-top border-primary">
                                     <h5 className="card-title fw-black">CHAPAS</h5>
                                     <a href="/chapas" className="btn btn-primary">Mais detalhes</a>
@@ -66,7 +66,7 @@ function Informacoes() {
                         </div>
                         <div className="col-12 col-md-6 col-lg-3 mb-lg-0 mb-4">
                             <div onClick={() => window.location.href='/metalons'} style={{cursor: "pointer"}} className="card text-center text-primary border-3 border-primary">
-                                <img src={'/informacoes/metalons.jpg'} className="card-img-top" alt="Metalons de ferro e aço" />
+                                <img src={'/informacoes/metalons.png'} className="card-img-top" alt="Metalons de ferro e aço" />
                                 <div className="card-body border-3 border-top border-primary">
                                     <h5 className="card-title fw-black">METALONS</h5>
                                     <a href="/metalons" className="btn btn-primary">Mais detalhes</a>
@@ -95,7 +95,7 @@ function Informacoes() {
                     <div className="row mb-lg-4 justify-content-center">
                         <div className="col-12 col-md-6 col-lg-3 mb-lg-0 mb-4">
                             <div onClick={() => window.location.href='/telhas_galvalume'} style={{cursor: "pointer"}} className="card text-center text-primary border-3 border-primary">
-                                <img src={'/informacoes/telha_galvalume.jpg'} className="card-img-top" alt="Telha galvalume de ferro e aço" />
+                                <img src={'/informacoes/telha_galvalume.png'} className="card-img-top" alt="Telha galvalume de ferro e aço" />
                                 <div className="card-body border-3 border-top border-primary">
                                     <h5 className="card-title fw-black">TELHAS GALVALUME</h5>
                                     <a href="/telhas_galvalume" className="btn btn-primary">Mais detalhes</a>
